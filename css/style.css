@@ -1,0 +1,81 @@
+body, p, span{
+    font-family: Muli,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+a{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.btn.btn-custom{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+}
+
+.hero-bottom{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/hero-bottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+}
+
+.fixed-top.scrolled {
+    background-color: #f9f9f9 !important;
+    transition: background-color 300ms linear;
+}
+
+hr{
+    max-width: 120px;
+}
+
+.section{
+    padding-bottom: 6rem;
+}
+
+.section-header{
+    padding: 6rem 0;
+}
+
+.section img{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-height: 100px;
+    max-width: 330px;
+}
+
+.contacto a{
+    display: block;
+    height: 80px;
+    width: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.twitter{
+    background-color: #1da1f2;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.google{
+    background-color: #d73925;
+}
